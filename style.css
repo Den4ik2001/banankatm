@@ -1,0 +1,1438 @@
+html {
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+.container-body {
+
+}
+
+.container-max {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.header {
+	background-image: url(image/header-background.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	display: flex;
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+.header-column1 {
+	max-width: 960px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-h1 {
+	color: white;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 50px;
+}
+
+.header-h2 {
+	color: white;
+	font-size: 35px;
+}
+
+.image-bananka {
+	background-image: url(image/bananka1.JPG);
+	background-size: 600px;
+	width: 600px;
+	height: 320px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.header-column2 {
+	max-width: 960px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	opacity: 0.7;
+}
+
+.form-container {
+	width: 320px;
+	height: 500px;
+	background-color: black;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+}
+
+.akcia {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.cena-container {
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+}
+
+.stara-cena {
+	font-weight: 700;
+	font-family: Roboto;
+	padding: 10px;
+}
+
+.new-cena {
+	font-weight: 700;
+	font-family: Roboto;
+	background-color: orange;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.container-input-date {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container-input-date input {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 22px;
+	border: 1px solid black;
+	margin: 1px;
+}
+
+.input-submit {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	margin: 0 auto;
+	background-color: red;
+	border: 1px solid black;
+	margin-top: 2px;
+}
+
+.input-submit:hover {
+	background-color: #FF4500;
+	cursor: pointer;
+}
+
+.bananok-ostalos {
+	color: white;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.container-opis {
+	background-image: url(image/container-opis.jpg);
+}
+
+.container-opis-h2 {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	padding: 10px 0px;
+}
+
+.opis-block {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+	color: white;
+	text-align: center;
+}
+
+.opis-podblock {
+	width: 300px;
+	margin: 0px 20px;
+}
+
+.opis-podblock-image1 {
+	background-image: url(image/bananka1.JPG);
+	background-size: 300px;
+	width: 300px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+.opis-podblock-image2{
+	background-image: url(image/bananka2.JPG);
+	background-size: 300px;
+	width: 300px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+.opis-podblock-image3 {
+	background-image: url(image/bananka3.JPG);
+	background-size: 310px;
+	background-repeat: no-repeat;
+	width: 310px;
+	height: 180px;
+	margin: 0 auto;
+	margin-left: -5px;
+}
+
+.opis-podblock-h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+}
+
+.opis-podblock-p {
+	font-size: 18px;
+}
+
+.container-harakt {
+	padding-bottom: 20px;
+}
+
+.container-harakt-h2 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+
+.block-harakt-infa {
+	display: flex;
+	justify-content: space-around;
+	background-image: url(image/container-hro.jpg);
+}
+
+.podblock-harakt {
+	max-width: 640px;
+	width: 100%;
+}
+
+.container-podblock-harakt {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.harakt-rows1 {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	background-color: #FFFAFA;
+	padding: 5px;
+}
+
+.harakt-rows2 {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	background-color: #A9A9A9;
+	padding: 5px;
+}
+
+.nazva {
+	font-weight: 700;
+}
+
+.znach {
+	font-style: italic;
+}
+
+.podblock-kak-my-rabotaem {
+	max-width: 640px;
+	width: 100%;
+}
+
+#flex-end-podblock-kmr {
+	display: none;
+}
+
+.podblock-kmr-h3 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+
+.block-container-four {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.podblock-four {
+	width: 220px;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.podblock-four img {
+	width: 70px;
+	height: 60px;
+}
+
+.podblock-obrabotka-h3 {
+	font-size: 18px;
+}
+
+.podblock-obrabotka-p {
+	text-align: justify;
+}
+
+#next-k-zakazu {
+	text-decoration: none;
+	border: 1px solid black;
+	width: 65%;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	margin: 0 auto;
+	background-color: red;
+	border: 1px solid black;
+	margin-top: 30px;
+	line-height: 60px;
+	opacity: 0.8;
+}
+
+#next-k-zakazu:hover {
+	background-color: #FF4500;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.podblock-infa {
+	max-width: 640px;
+	width: 100%;
+}
+
+.podblock-infa-h3 {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.podblock-infa-p {
+	text-align: justify;
+	padding: 0px 50px;
+	text-indent: 15px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+@media (max-width: 1350px) {
+
+.container-max {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-bottom: 50px;
+}
+
+.header-column1 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.header-h1 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.header-h2 {
+	font-size: 35px;
+}
+.image-bananka {
+	background-size: 600px;
+	width: 600px;
+	height: 320px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.header-column2 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.form-container {
+	width: 320px;
+	height: 500px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+
+.akcia {
+	font-size: 30px;
+}
+.cena-container {
+	font-size: 30px;
+}
+
+.stara-cena {
+	padding: 10px;
+}
+
+.new-cena {
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.container-input-date {
+	margin-top: 5px;
+}
+
+.container-input-date input {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 22px;
+	margin: 1px;
+}
+
+.input-submit {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.bananok-ostalos {
+	margin-top: 2px;
+}
+
+.container-opis-h2 {
+	font-size: 50px;
+	padding: 10px 0px;
+}
+
+.opis-block {
+	padding-bottom: 50px;
+}
+
+.opis-podblock {
+	width: 300px;
+	margin: 0px 20px;
+}
+
+.opis-podblock-image1 {
+	background-size: 300px;
+	width: 300px;
+	height: 160px;
+}
+
+.opis-podblock-image2{
+	background-size: 300px;
+	width: 300px;
+	height: 160px;
+}
+
+.opis-podblock-image3 {
+	background-size: 270px;
+	width: 300px;
+	height: 160px;
+}
+
+.opis-podblock-h3 {
+	font-size: 22px;
+}
+
+.opis-podblock-p {
+	font-size: 18px;
+}
+
+.container-harakt {
+	padding-bottom: 20px;
+}
+
+.container-harakt-h2 {
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+.podblock-harakt {
+	max-width: 250px;
+	width: 100%;
+	margin: 0px 20px;
+}
+
+.container-podblock-harakt {
+	width: 250px;
+}
+
+.harakt-rows1 {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.harakt-rows2 {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.nazva {
+
+}
+
+.znach {
+
+}
+
+.podblock-kak-my-rabotaem {
+	max-width: 400px;
+	width: 100%;
+}
+
+.podblock-kmr-h3 {
+	font-size: 20px;
+	margin: 20px 0px;
+}
+
+.block-container-four {
+
+}
+
+.podblock-four {
+	width: 180px;
+	height: 180px;
+}
+
+.podblock-four img {
+	width: 60px;
+	height: 50px;
+}
+
+.podblock-obrabotka-h3 {
+	font-size: 14px;
+}
+
+.podblock-obrabotka-p {
+	font-size: 12px;
+}
+
+#next-k-zakazu {
+	width: 65%;
+	border-radius: 50px;
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 60px;
+}
+
+.podblock-infa {
+	max-width: 370px;
+	width: 100%;
+}
+
+.podblock-infa-h3 {
+	font-size: 20px;
+	margin: 20px 0px;
+}
+
+.podblock-infa-p {
+	padding: 0px 30px;
+	text-indent: 15px;
+}
+}
+
+@media (max-width: 1035px) {
+
+.container-max {
+	max-width: 1035px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-bottom: 50px;
+}
+
+.header-column1 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.header-h1 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.header-h2 {
+	font-size: 35px;
+}
+.image-bananka {
+	background-size: 400px;
+	width: 400px;
+	height: 210px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.header-column2 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.form-container {
+	width: 320px;
+	height: 500px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+
+.akcia {
+	font-size: 30px;
+}
+.cena-container {
+	font-size: 30px;
+}
+
+.stara-cena {
+	padding: 10px;
+}
+
+.new-cena {
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.container-input-date {
+	margin-top: 5px;
+}
+
+.container-input-date input {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 22px;
+	margin: 1px;
+}
+
+.input-submit {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.bananok-ostalos {
+	margin-top: 2px;
+}
+
+.container-opis-h2 {
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+.opis-block {
+	padding-bottom: 20px;
+}
+
+.opis-podblock {
+	width: 300px;
+	margin: 0px 20px;
+}
+
+.opis-podblock-image1 {
+	background-size: 220px;
+	width: 220px;
+	height: 115px;
+}
+
+.opis-podblock-image2{
+	background-size: 220px;
+	width: 220px;
+	height: 115px;
+}
+
+.opis-podblock-image3 {
+	background-size: 190px;
+	width: 220px;
+	height: 115px;
+}
+
+.opis-podblock-h3 {
+	font-size: 16px;
+}
+
+.opis-podblock-p {
+	font-size: 14px;
+}
+
+.container-harakt {
+	padding-bottom: 20px;
+}
+
+.container-harakt-h2 {
+	font-size: 15px;
+	margin: 20px 0px;
+}
+
+.podblock-harakt {
+	max-width: 250px;
+	width: 100%;
+	margin: 0px 20px;
+}
+
+.container-podblock-harakt {
+	width: 250px;
+}
+
+.harakt-rows1 {
+	font-size: 14px;
+	padding: 5px;
+}
+
+.harakt-rows2 {
+	font-size: 14px;
+	padding: 5px;
+}
+
+.podblock-kak-my-rabotaem {
+	max-width: 270px;
+	width: 100%;
+}
+
+.podblock-kmr-h3 {
+	font-size: 20px;
+	margin: 20px 0px;
+}
+
+.podblock-four {
+	width: 120px;
+	height: 150px;
+}
+
+.podblock-four img {
+	width: 50px;
+	height: 40px;
+}
+
+.podblock-obrabotka-h3 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.podblock-obrabotka-p {
+	font-size: 12px;
+}
+
+#next-k-zakazu {
+	width: 90%;
+	border-radius: 50px;
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+
+.podblock-infa {
+	max-width: 270px;
+	width: 100%;
+}
+
+.podblock-infa-h3 {
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+.podblock-infa-p {
+	padding: 0px 15px;
+	text-indent: 15px;
+	font-size: 12px;
+}
+}
+
+@media (max-width: 800px) {
+.container-max {
+	max-width: 1035px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+	background-repeat: repeat;
+	background-size: 3000px;
+}
+
+.header-column1 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.header-h1 {
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.header-h2 {
+	font-size: 35px;
+}
+.image-bananka {
+	background-size: 500px;
+	width: 500px;
+	height: 260px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.header-column2 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.form-container {
+	width: 320px;
+	height: 500px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.akcia {
+	font-size: 30px;
+}
+.cena-container {
+	font-size: 30px;
+}
+
+.stara-cena {
+	padding: 10px;
+}
+
+.new-cena {
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.container-input-date {
+	margin-top: 5px;
+}
+
+.container-input-date input {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 22px;
+	margin: 1px;
+}
+
+.input-submit {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.bananok-ostalos {
+	margin-top: 2px;
+}
+
+.container-opis-h2 {
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+.opis-block {
+	padding-bottom: 20px;
+}
+
+.opis-podblock {
+	width: 300px;
+	margin: 0px 20px;
+}
+
+.opis-podblock-image1 {
+	background-size: 150px;
+	width: 150px;
+	height: 80px;
+}
+
+.opis-podblock-image2{
+	background-size: 150px;
+	width: 150px;
+	height: 80px;
+}
+
+.opis-podblock-image3 {
+	background-size: 170px;
+	width: 170px;
+	height: 100px;
+}
+
+.opis-podblock-h3 {
+	font-size: 14px;
+}
+
+.opis-podblock-p {
+	font-size: 12px;
+}
+
+.container-harakt {
+	padding-bottom: 20px;
+}
+
+.container-harakt-h2 {
+	font-size: 15px;
+	margin: 20px 0px;
+}
+
+.podblock-harakt {
+	max-width: 250px;
+	width: 100%;
+	margin: 0px 20px;
+}
+
+.container-podblock-harakt {
+	width: 250px;
+}
+
+.harakt-rows1 {
+	font-size: 14px;
+	padding: 5px;
+}
+
+.harakt-rows2 {
+	font-size: 14px;
+	padding: 5px;
+}
+
+.podblock-kak-my-rabotaem {
+	max-width: 270px;
+	width: 100%;
+	display: none;
+}
+
+#flex-end-podblock-kmr {
+	display: block;
+	margin: 0px 20px;
+}
+
+.podblock-kmr-h3 {
+	font-size: 20px;
+	margin: 20px 0px;
+	margin-bottom: 5px;
+}
+
+.block-container-four {
+
+}
+
+.podblock-four {
+	width: 120px;
+	height: 150px;
+}
+
+.podblock-four img {
+	width: 50px;
+	height: 40px;
+}
+
+.podblock-obrabotka-h3 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.podblock-obrabotka-p {
+	font-size: 12px;
+}
+
+#next-k-zakazu {
+	width: 90%;
+	border-radius: 50px;
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+
+.podblock-infa {
+	max-width: 270px;
+	width: 100%;
+}
+
+.podblock-infa-h3 {
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+.podblock-infa-p {
+	padding: 0px 15px;
+	text-indent: 15px;
+	font-size: 12px;
+}
+}
+
+@media (max-width: 560px) {
+.container-max {
+	max-width: 1035px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+	background-repeat: repeat;
+	background-size: 3000px;
+}
+
+.header-column1 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.header-h1 {
+	font-size: 50px;
+	margin-top: 5px;
+}
+
+.header-h2 {
+	font-size: 35px;
+}
+.image-bananka {
+	background-size: 380px;
+	width: 380px;
+	height: 200px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.header-column2 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.form-container {
+	width: 320px;
+	height: 500px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.akcia {
+	font-size: 30px;
+}
+.cena-container {
+	font-size: 30px;
+}
+
+.stara-cena {
+	padding: 10px;
+}
+
+.new-cena {
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.container-input-date {
+	margin-top: 5px;
+}
+
+.container-input-date input {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 22px;
+	margin: 1px;
+}
+
+.input-submit {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.bananok-ostalos {
+	margin-top: 2px;
+}
+
+.container-opis-h2 {
+	font-size: 20px;
+	padding: 10px 0px;
+}
+
+.opis-block {
+	padding-bottom: 20px;
+}
+
+.opis-podblock {
+	width: 110px;
+	margin: 0px 20px;
+	justify-content: space-between;
+}
+
+.opis-podblock-image1 {
+	background-size: 110px;
+	width: 110px;
+	height: 57px;
+}
+
+.opis-podblock-image2{
+	background-size: 110px;
+	width: 110px;
+	height: 57px;
+}
+
+.opis-podblock-image3 {
+	background-size: 110px;
+	width: 110px;
+	height: 70px;
+}
+
+.opis-podblock-h3 {
+	font-size: 12px;
+}
+
+.opis-podblock-p {
+	font-size: 10px;
+}
+
+.container-harakt {
+	padding-bottom: 20px;
+	justify-content: center;
+}
+
+.container-harakt-h2 {
+	font-size: 15px;
+	margin: 20px 0px;
+}
+
+.block-harakt-infa {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.podblock-harakt {
+	width: 100%;
+	margin: 0px;
+}
+
+.container-podblock-harakt {
+	margin: 0 auto;
+}
+
+.harakt-rows1 {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.harakt-rows2 {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.podblock-kak-my-rabotaem {
+	max-width: 270px;
+	width: 100%;
+	display: none;
+}
+
+#flex-end-podblock-kmr {
+	display: block;
+	margin: 0px 20px;
+}
+
+.podblock-kmr-h3 {
+	font-size: 20px;
+	margin: 20px 0px;
+	margin-bottom: 5px;
+}
+
+.block-container-four {
+	justify-content: center;
+}
+
+.podblock-four {
+	width: 120px;
+	height: 150px;
+}
+
+.podblock-four img {
+	width: 50px;
+	height: 40px;
+}
+
+.podblock-obrabotka-h3 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.podblock-obrabotka-p {
+	font-size: 12px;
+}
+
+#next-k-zakazu {
+	width: 90%;
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+
+.podblock-infa {
+	max-width: 390px;
+	width: 100%;
+}
+
+.podblock-infa-h3 {
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+.podblock-infa-p {
+	padding: 0px 15px;
+	text-indent: 15px;
+	font-size: 12px;
+}
+}
+
+@media (max-width: 420px) {
+.container-max {
+	max-width: 1035px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+	background-repeat: repeat;
+	background-size: 3000px;
+}
+
+.header-column1 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.header-h1 {
+	font-size: 45px;
+	margin-top: 0px;
+}
+
+.header-h2 {
+	font-size: 32px;
+}
+.image-bananka {
+	background-size: 310px;
+	width: 310px;
+	height: 160px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.header-column2 {
+	max-width: 960px;
+	width: 100%;
+}
+
+.form-container {
+	width: 320px;
+	height: 500px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.akcia {
+	font-size: 30px;
+}
+.cena-container {
+	font-size: 30px;
+}
+
+.stara-cena {
+	padding: 10px;
+}
+
+.new-cena {
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.container-input-date {
+	margin-top: 5px;
+}
+
+.container-input-date input {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 22px;
+	margin: 1px;
+}
+
+.input-submit {
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.bananok-ostalos {
+	margin-top: 2px;
+}
+
+.container-opis-h2 {
+	font-size: 16px;
+	padding: 10px 0px;
+}
+
+.opis-block {
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.opis-podblock {
+	width: 290px;
+	margin: 5px;
+	justify-content: space-between;
+}
+
+.opis-podblock-image1 {
+	background-size: 290px;
+	width: 290px;
+	height: 150px;
+}
+
+.opis-podblock-image2{
+	background-size: 290px;
+	width: 290px;
+	height: 150px;
+}
+
+.opis-podblock-image3 {
+	background-size: 290px;
+	width: 290px;
+	height: 180px;
+}
+
+.opis-podblock-h3 {
+	font-size: 18px;
+}
+
+.opis-podblock-p {
+	font-size: 12px;
+}
+
+.container-harakt {
+	padding-bottom: 20px;
+	justify-content: center;
+}
+
+.container-harakt-h2 {
+	font-size: 20px;
+	margin: 10px 0px;
+}
+
+.block-harakt-infa {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.podblock-harakt {
+	width: 100%;
+	margin: 0px;
+}
+
+.container-podblock-harakt {
+	margin: 0 auto;
+}
+
+.harakt-rows1 {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.harakt-rows2 {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.podblock-kak-my-rabotaem {
+	max-width: 270px;
+	width: 100%;
+	display: none;
+}
+
+#flex-end-podblock-kmr {
+	display: block;
+	margin: 0px 30px;
+}
+
+.podblock-kmr-h3 {
+	font-size: 20px;
+	margin: 20px 0px;
+	margin-bottom: 5px;
+}
+
+.block-container-four {
+	justify-content: space-between;
+}
+
+.podblock-four {
+	width: 120px;
+	height: 150px;
+}
+
+.podblock-four img {
+	width: 50px;
+	height: 40px;
+}
+
+.podblock-obrabotka-h3 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.podblock-obrabotka-p {
+	font-size: 12px;
+}
+
+#next-k-zakazu {
+	width: 90%;
+	border-radius: 50px;
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+
+.podblock-infa {
+	max-width: 390px;
+	width: 100%;
+}
+
+.podblock-infa-h3 {
+	font-size: 18px;
+	margin: 10px 0px;
+}
+
+.podblock-infa-p {
+	padding: 0px 15px;
+	text-indent: 15px;
+	font-size: 12px;
+}
+}
